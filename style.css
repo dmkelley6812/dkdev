@@ -5,22 +5,39 @@ font-family: 'Bangers', cursive;
 font-family: 'Montserrat', sans-serif;
 */
 
-#backgroundVideo {
-position: fixed;
-right: 0;
-bottom: 0;
-min-width: 100%;
-min-height: 100%;
+
+html, body {
+	margin: 0px;
 }
 
+
+.box {
+	height: 100vh;
+}
+
+ .video-container {
+ 	position: relative;
+ 	z-index: 0;
+ }
+
+.video-container video {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	object-fit: cover;
+	z-index: 0;
+}
+
+
+
 .viewport-header {
+	z-index: 1;
 	position: relative;
 	height: 100vh;
 	text-align: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
 }
 
 #DK {
@@ -44,3 +61,8 @@ min-height: 100%;
 	font-weight: 100;
 }
 
+.nav {
+	z-index: 1;
+	display: flex;
+	align-content: flex-start;
+}
