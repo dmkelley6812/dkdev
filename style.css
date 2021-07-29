@@ -1,5 +1,9 @@
 
-
+/*FONTS*/
+/*
+font-family: 'Bangers', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
 
 #backgroundVideo {
 position: fixed;
@@ -7,4 +11,30 @@ right: 0;
 bottom: 0;
 min-width: 100%;
 min-height: 100%;
+}
+
+.viewport-header {
+	position: relative;
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+#DK {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 86px;
+	color: #54F4B4;
+}
+
+#DEV {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 86px;
+}
+
+#subtitle {
+	font-size: .6em;
+	font-family: 'Montserrat', sans-serif;
 }
