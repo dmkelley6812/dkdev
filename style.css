@@ -27,14 +27,23 @@ min-height: 100%;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 86px;
 	color: #54F4B4;
+	font-weight: 400;
+	padding-left: 0px;
+	margin-left: 0px;
 }
 
 #DEV {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 86px;
+	font-weight: 400;
 }
 
 #subtitle {
 	font-size: .6em;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+}
+
+h1 {
+	align-items: center;
 }
